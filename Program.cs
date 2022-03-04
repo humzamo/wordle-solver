@@ -97,7 +97,7 @@
             return output;
         }
 
-        void GiveSuggestions(string[] words)
+        private static void GiveSuggestions(string[] words)
         {
             Random rnd = new Random();
             int randomIndex = rnd.Next(1, words.Length);
